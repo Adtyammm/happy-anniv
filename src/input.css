@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@layer components{
+    .grid-card {
+        @apply bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden relative hover:scale-95 transition-all duration-500
+    }
+
+    .grip-card-image{
+        @apply w-full h-full bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500
+    }
+}
