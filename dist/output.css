@@ -627,10 +627,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .inset-0 {
   inset: 0px;
 }
@@ -641,14 +637,6 @@ video {
 
 .col-start-2 {
   grid-column-start: 2;
-}
-
-.row-span-5 {
-  grid-row: span 5 / span 5;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
 }
 
 .row-start-2 {
@@ -682,11 +670,6 @@ video {
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
-}
-
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
 }
 
 .mx-auto {
@@ -746,28 +729,24 @@ video {
   margin-right: 1.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .mt-28 {
   margin-top: 7rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -796,14 +775,6 @@ video {
 
 .h-20 {
   height: 5rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-28 {
@@ -917,6 +888,62 @@ video {
   --tw-bg-opacity: 0.3;
 }
 
+.bg-\[url\(\'dist\/img\/dna\/1\.jpg\'\)\] {
+  background-image: url('dist/img/dna/1.jpg');
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/2\.jpg\)\] {
+  background-image: url(./dist/img/dna/2.jpg);
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/3\.jpg\)\] {
+  background-image: url(./dist/img/dna/3.jpg);
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/4\.jpg\)\] {
+  background-image: url(./dist/img/dna/4.jpg);
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/5\.jpg\)\] {
+  background-image: url(./dist/img/dna/5.jpg);
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/6\.png\)\] {
+  background-image: url(./dist/img/dna/6.png);
+}
+
+.bg-\[url\(\.\/dist\/img\/dna\/7\.jpg\)\] {
+  background-image: url(./dist/img/dna/7.jpg);
+}
+
+.bg-\[url\(\'\.\/dist\/img\/dna\/1\.jpg\'\)\] {
+  background-image: url('./dist/img/dna/1.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/2\.jpg\'\)\] {
+  background-image: url('dist/img/dna/2.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/3\.jpg\'\)\] {
+  background-image: url('dist/img/dna/3.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/4\.jpg\'\)\] {
+  background-image: url('dist/img/dna/4.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/5\.jpg\'\)\] {
+  background-image: url('dist/img/dna/5.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/6\.png\'\)\] {
+  background-image: url('dist/img/dna/6.png');
+}
+
+.bg-\[url\(\'dist\/img\/dna\/7\.jpg\'\)\] {
+  background-image: url('dist/img/dna/7.jpg');
+}
+
 .bg-\[url\(\'\/dist\/img\/dna\/1\.jpg\'\)\] {
   background-image: url('/dist/img/dna/1.jpg');
 }
@@ -937,28 +964,12 @@ video {
   background-image: url('/dist/img/dna/5.jpg');
 }
 
-.bg-\[url\(\'\/dist\/img\/dna\/7\.jpg\'\)\] {
-  background-image: url('/dist/img/dna/7.jpg');
-}
-
-.bg-\[url\(\'\/dist\/img\/dna\/8\.jpg\'\)\] {
-  background-image: url('/dist/img/dna/8.jpg');
-}
-
-.bg-\[url\(\'\/dist\/img\/dna\/6\.jpg\'\)\] {
-  background-image: url('/dist/img/dna/6.jpg');
-}
-
 .bg-\[url\(\'\/dist\/img\/dna\/6\.png\'\)\] {
   background-image: url('/dist/img/dna/6.png');
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
+.bg-\[url\(\'\/dist\/img\/dna\/7\.jpg\'\)\] {
+  background-image: url('/dist/img/dna/7.jpg');
 }
 
 .bg-repeat {
@@ -991,16 +1002,6 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -1162,12 +1163,6 @@ body {
 .active\:bg-\[\#faeee7\]:active {
   --tw-bg-opacity: 1;
   background-color: rgb(250 238 231 / var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:scale-125 {
-  --tw-scale-x: 1.25;
-  --tw-scale-y: 1.25;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .peer:checked ~ .peer-checked\:pointer-events-auto {
